@@ -15,7 +15,7 @@
  * @true: Equals 1.
  */
 
-typdef enum bool
+typedef enum bool
 {
 	false = 0,
 	true
@@ -37,7 +37,7 @@ typedef struct listint_s
 } listint_t;
 
 /*Printing function*/
-void pringt_array(const int *array, size_t size);
+void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 
 /*Sorting algorithms */
